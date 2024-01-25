@@ -122,7 +122,6 @@ def send_message(bot: telegram.bot.Bot, message: str) -> Union[bool, None]:
 def main() -> None:
     """Основная логика работы бота."""
     bot = telegram.Bot(token=TELEGRAM_TOKEN)
-    #last_message = ['']
     send_message(bot, ('Привет! Я YouTUBE_Bot и буду отслеживать '
                        'статус комментариев к твоим видео :)'))
     bot_working = True
