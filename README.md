@@ -70,4 +70,8 @@ pip install -r requirements.txt
 
 ```
 python comments.py
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> ea8d28f16e2e4d1c953700dd02e912d66582c434
